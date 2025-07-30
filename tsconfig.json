@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "jsx": "react-jsx",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "checkJs": true,
+    "types": ["react", "node"],
+    "lib": ["ES2018", "DOM", "DOM.Iterable"]
+  },
+  "include": ["src/**/*", "projects/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

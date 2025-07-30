@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Production
+out/
+dist/
+
+# Remotion
+.remotion/
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp

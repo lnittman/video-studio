@@ -1,0 +1,36 @@
+{
+  "name": "video-studio",
+  "version": "1.0.0",
+  "description": "Programmatic video creation studio using Remotion",
+  "main": "index.js",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion render",
+    "render": "remotion render",
+    "upgrade": "remotion upgrade",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["remotion", "video", "animation", "programmatic"],
+  "author": "nit",
+  "license": "MIT",
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/gif": "^4.0.0",
+    "@remotion/media-utils": "^4.0.0",
+    "@remotion/noise": "^4.0.0",
+    "@remotion/paths": "^4.0.0",
+    "@remotion/shapes": "^4.0.0",
+    "@remotion/three": "^4.0.0",
+    "@remotion/transitions": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.0",
+    "three": "^0.158.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/three": "^0.158.0",
+    "@types/web": "^0.0.99",
+    "typescript": "^5.0.0"
+  }
+}
