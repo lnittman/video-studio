@@ -1,6 +1,6 @@
 import { Config } from '@remotion/cli/config';
 
-Config.setImageFormat('jpeg');
+Config.setVideoImageFormat('jpeg');
 Config.setOverwriteOutput(true);
 Config.setPixelFormat('yuv444p');
 Config.setCodec('h264');
@@ -17,5 +17,5 @@ Config.setChromiumOpenGlRenderer('angle');
 Config.setOutputLocation('./out');
 
 // Studio settings
-Config.setStudioPort(3003);
+Config.setStudioPort(3004);
 Config.setPublicDir('./public');
